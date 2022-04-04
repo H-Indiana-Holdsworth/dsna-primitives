@@ -14,3 +14,13 @@ function reverseWords(sentence) {
 }
 
 console.log(reverseWords('alchemy rocks gold'));
+
+function at(arr, index) {
+  //   return arr[index];
+
+  if (index < 0) {
+    return arr.length[index] - 1;
+  }
+}
+
+console.log(at(['a', 'b', 'c', 'd', 'e'], -1));
